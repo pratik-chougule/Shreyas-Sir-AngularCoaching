@@ -1,0 +1,12 @@
+Undefined
+The Undefined primitive type denotes all uninitialized variables in TypeScript and JavaScript.
+ It has only one value, which is undefined. The undefined keyword defines the undefined type in TypeScript,
+  but it is not useful because we can only assign an undefined value to it.
+
+  Any Type
+It is the "super type" of all data type in TypeScript. It is used to represents any JavaScript value.
+ It allows us to opt-in and opt-out of type-checking during compilation.
+  If a variable cannot be represented in any of the basic data types,
+   then it can be declared using "Any" data type.
+    Any type is useful when we do not know about the type of value (which might come from an API or 3rd party library), 
+    and we want to skip the type-checking on compile time.
